@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 20vh;
+}
+
+.abas p {
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0;
+}
+
+.abas {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.header {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3137CE;
+}
+
+.saiba-mais, .barra-pesquisa {
+    padding: 32px;
+}
+
+img {
+    width: 30%;
+}
+
+.barra-pesquisa {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.barra-pesquisa i {
+    position: absolute;
+    left: 230px;
+    color: #888;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 16px;
+}
+
+.header .h5 {
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.header .h5:hover {
+    text-decoration: underline;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.noticia{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    width: 50%;
+}
+
+.imagem{
+    width: 20rem;
+    height: 12rem;
+    background-size: cover;
+}
+.imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carrossel, .noticias {
+    width: 90%;
+    margin: 32px auto; 
+}
+
+.carrossel .carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover; 
+}
+
+body .card{
+    width: 30rem;
+    border: none;
+}
+
+body .card-title{
+    cursor: pointer;
+}
+
+body .card-subtitle, .card-text{
+    text-align: justify;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 6.25rem;
+}
+
+.container p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.carousel-item{
+    cursor: pointer;
+}
+
+.noticias{
+    display: grid;
+    height: 100vh;
+    gap: 32px;
+}
+
+footer{
+    height: 20vh;
+}
